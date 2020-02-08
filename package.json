@@ -1,0 +1,17 @@
+{
+  "name": "my-design-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "develop": "concurrently \"node-sass src/styles.scss src/style.css -w\" \"live-server\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "animate.css": "^3.7.2",
+    "bootstrap": "^4.4.1",
+    "concurrently": "^5.1.0",
+    "node-sass": "^4.13.1"
+  }
+}
